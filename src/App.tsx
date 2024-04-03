@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <ListGroup items={items} heading="Cities" />
+      <h1>TEST</h1>
     </div>
   );
 }
