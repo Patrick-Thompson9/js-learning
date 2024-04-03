@@ -1,5 +1,4 @@
 import ListGroup from "./Components/ListGroup";
-import React from "react";
 
 function App() {
   let items = ["New York", "San fran", "London", "Paris"];
