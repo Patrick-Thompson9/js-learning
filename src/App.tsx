@@ -1,5 +1,6 @@
 import Alert from "./Components/Alert";
 import Button from "./Components/Button";
+import React from "react";
 
 function App() {
   const handleEvent = (num: number) => {
