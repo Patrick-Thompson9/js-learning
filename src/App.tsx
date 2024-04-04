@@ -1,11 +1,17 @@
-import ListGroup from "./Components/ListGroup";
+import Alert from "./Components/Alert";
+import Button from "./Components/Button";
 
 function App() {
-  let items = ["New York", "San fran", "London", "Paris"];
+  const handleEvent = (num: number) => {
+    console.log(`CLICKED YO! ${num}`)
+  }
+
   return (
     <div>
-      <ListGroup items={items} heading="Cities" />
-      <h1>TEST</h1>
+      <Alert>
+        Hello from the <strong>alert!</strong>
+      </Alert>
+      <Button children="Click Me!" onClick={handleEvent} color="secondary"/>
     </div>
   );
 }
